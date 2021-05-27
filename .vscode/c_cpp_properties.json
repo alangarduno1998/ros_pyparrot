@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/alangarduno98/catkin_robot/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/alangarduno98/rosserial_ws/devel/include/**",
+        "/home/alangarduno98/catkin_robot/src/jumping_sumo_jump/include/**",
+        "/home/alangarduno98/rosserial_ws/src/rosserial/rosserial_server/include/**",
+        "/home/alangarduno98/rosserial_ws/src/rosserial/rosserial_test/include/**",
+        "/home/alangarduno98/rosserial_ws/src/joystick_drivers/wiimote/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

@@ -78,26 +78,16 @@ def turn_degreees(mambo, degrees):
 
 #Initialization function
 def init():
-    global tko
-    global land
-    global cannon
-    global auto_tko
-    global linX
-    global linY
-    global Alt
-    global Hdg
-    global p_mode
-    global need_to_change_mode
-    global need_to_toggle_mode
-    global okay_signal
-    global tot_time
-    global turn_indicator
+    global tko, land, cannon, auto_tko
+    global linX, linY, Alt
+    global Hdg, p_mode
+    global need_to_change_mode, need_to_toggle_mode
+    global okay_signal, tot_time, turn_indicator
     global keywaspressed
 
     mambo = Mambo(mamboAdd,use_wifi=wifi)
     success = mambo.connect(retries)
-    okay_signal = False
-    keywaspressed = False
+    okay_signal = keywaspressed = False
     turn_indicator = 0
     if(success):
         mambo.smart_sleep(2)
